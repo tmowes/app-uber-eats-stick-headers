@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 import { Animated, FlatList } from 'react-native'
 
@@ -41,10 +42,10 @@ const Wallet: React.FC = () => {
     <Container>
       <AnimatedFlatList
         scrollEventThrottle={16}
-        contentContainerStyle={{ paddingBottom: 100 }}
+        contentContainerStyle={{ paddingBottom: 60 }}
         bounces={false}
         data={cards}
-        renderItem={({ index, item: { type } }) => (
+        renderItem={({ index, item: { type } }: any) => (
           <WalletCard {...{ index, y, type }} />
         )}
         keyExtractor={({ index }: any) => index}
