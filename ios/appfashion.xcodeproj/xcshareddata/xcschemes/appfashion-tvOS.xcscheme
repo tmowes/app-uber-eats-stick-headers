@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "appfashion-tvOS.app"
-               BlueprintName = "appfashion-tvOS"
-               ReferencedContainer = "container:appfashion.xcodeproj">
+               BuildableName = "appubereats-tvOS.app"
+               BlueprintName = "appubereats-tvOS"
+               ReferencedContainer = "container:appubereats.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "appfashion-tvOSTests.xctest"
-               BlueprintName = "appfashion-tvOSTests"
-               ReferencedContainer = "container:appfashion.xcodeproj">
+               BuildableName = "appubereats-tvOSTests.xctest"
+               BlueprintName = "appubereats-tvOSTests"
+               ReferencedContainer = "container:appubereats.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "appfashion-tvOS.app"
-            BlueprintName = "appfashion-tvOS"
-            ReferencedContainer = "container:appfashion.xcodeproj">
+            BuildableName = "appubereats-tvOS.app"
+            BlueprintName = "appubereats-tvOS"
+            ReferencedContainer = "container:appubereats.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "appfashion-tvOS.app"
-            BlueprintName = "appfashion-tvOS"
-            ReferencedContainer = "container:appfashion.xcodeproj">
+            BuildableName = "appubereats-tvOS.app"
+            BlueprintName = "appubereats-tvOS"
+            ReferencedContainer = "container:appubereats.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
