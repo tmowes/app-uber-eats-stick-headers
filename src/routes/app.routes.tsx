@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import { StatusBar } from 'react-native'
 import Dashboard from '../pages/Dashboard'
+import Wallet from '../pages/Wallet'
 
 const App = createStackNavigator()
 
@@ -19,6 +20,7 @@ const AppRoutes: React.FC = () => (
         cardStyle: { backgroundColor: '#dcdcdc' },
       }}
     >
+      <App.Screen name="Wallet" component={Wallet} />
       <App.Screen name="Dashboard" component={Dashboard} />
     </App.Navigator>
   </>

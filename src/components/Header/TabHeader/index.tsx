@@ -29,7 +29,7 @@ const TabHeader: React.FC<TabHeaderProps> = ({ tabs }) => {
       </View>
       <Tabs
         active
-        onPress={i => {
+        onPress={() => {
           return true
         }}
         {...{ tabs }}
